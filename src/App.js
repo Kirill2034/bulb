@@ -4,7 +4,7 @@ import Bulb from './Bulb';
 
 function App() {
 
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   return (
     <div className="wrapper">
