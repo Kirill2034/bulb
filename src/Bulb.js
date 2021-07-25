@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bulb.css';
-const classNames = require('classnames');
+import classNames from 'classnames';
 
 function Bulb(props) {
     return <div className={classNames('bulb', { 'active': props.isActive })}>
